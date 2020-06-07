@@ -1,0 +1,20 @@
+{
+    "lessons": {
+        "local": "{GITHUB_URL}/lessons/lesson_{LESSON_NUMBER}.json"
+    },
+    "scripts": {
+        "local": "{GITHUB_URL}/scripts/{SCRIPT_NAME}.{SCRIPT_EXT}"
+    },
+    "examples": {
+        "local": "{GUTHUB_URL}/examples/{SCRIPT_NAME}.py"
+    },
+    "V": "1.0.0",
+    "lesson_template": [
+        "\"Number\" : {NUMBER}",
+        "\"Name\" : \"{NAME}\"",
+        "\"Subtitle\" : \"{SUBTITLE}\"",
+        "\"Editor\" : {EDITOR_ENABLED}",
+        "\"Body\" : \"{BODY}\"",
+        "\"Code\" : \"{CODE}\""
+    ]
+}
